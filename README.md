@@ -1,24 +1,24 @@
-# Warning
-I do *not* take responsibility for what may happen to your system. This is at your own risk.
+# Uyarı
+Sisteminize olacaklar için sorumluluk almıyorum. Sizin riskiniz.
 
 # Windows10Debloater
 
 Script/Utility/Application to debloat Windows 10
 
-# How To Run the Windows10Debloater.ps1 and the Windows10DebloaterGUI.ps1 files
+#  Windows10Debloater.ps1 ve Windows10DebloaterGUI.ps1 dosyalarını Nasıl Çalıştırabilirsiniz
 
-There are different methods of running the PowerShell script. The methods are as follows:
+Aşağıda PowerShell scriptlerini çalıştırabilmek için farklı methotlar vardır. Yöntemler şunlardır:
 
-First Method:
+İlk Yöntem:
 
-1) Download the .zip file on the main page of the github and extract the .zip file to your desired location
-2) Once extracted, open PowerShell (or PowerShell ISE) as an Administrator
-3) Enable PowerShell execution
+1) Github ana sayfasından .zip dosyasını indirin ve istediğinz klasöre .zip dosyasını çıkartın.
+2) Çıkarttıktan sonra, PowerShell'i (ya da PowerShell ISE) yönetici olarak açın.
+3) PowerShell düzenlemeyi akitfleştirin.
 <code>Set-ExecutionPolicy Unrestricted -Force</code>
-4) On the prompt, change to the directory where you extracted the files:
-  e.g. - `cd c:\temp`
-5) Next, to run either script, enter in the following:
-  e.g. - `.\Windows10DebloaterGUI.ps1`
+4) Bittiğinde, dosyaları nereye çıkarttıysanız orayı seçin:
+  örneğin - `cd c:\temp`
+5) Sonra, komut dosyasını çalıştırabilmek için, yandaki kodu yazınız:
+   `.\Windows10DebloaterGUI.ps1`
 
 
 Second Method:
