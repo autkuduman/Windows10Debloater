@@ -11,7 +11,7 @@ Aşağıda PowerShell scriptlerini çalıştırabilmek için farklı methotlar v
 
 İlk Yöntem:
 
-1) Github ana sayfasından .zip dosyasını indirin ve istediğinz klasöre .zip dosyasını çıkartın.
+1) Github ana sayfasından .zip dosyasını indirin ve istediğiniz klasöre .zip dosyasını çıkartın.
 2) Çıkarttıktan sonra, PowerShell'i (ya da PowerShell ISE) yönetici olarak açın.
 3) PowerShell düzenlemeyi akitfleştirin.
 <code>Set-ExecutionPolicy Unrestricted -Force</code>
@@ -20,32 +20,31 @@ Aşağıda PowerShell scriptlerini çalıştırabilmek için farklı methotlar v
 5) Sonra, komut dosyasını çalıştırabilmek için, yandaki kodu yazınız:
    `.\Windows10DebloaterGUI.ps1`
 
+İkinci Yöntem:
 
-Second Method:
+1) Github ana sayfasından .zip dosyasını indirin ve istediğinz klasöre .zip dosyasını çıkartın.
+2) Çalıştırmak istediğiniz PowerShell dosyasına sağ tıklayın and "PowerShell İle Çalıştır"a tıklayın.
+3) Bunlar üstteki adımlar olmadan scripti çalıştırmak için izin verir fakat PowerShell script'i çalıştırmak istediğinizden emin misiniz diye soracaktır.
 
-1) Download the .zip file on the main page of the github and extract the .zip file to your desired location
-2) Right click the PowerShell file that you'd like to run and click on "Run With PowerShell"
-3) This will allow the script to run without having to do the above steps but Powershell will ask if you're sure you want to run this script.
-
-Remember this script NEEDS to be run as admin in order to function properly.
+Unutmayın, bu scripti düzgünce çalıştırabilmek için yönetici olarak çalıştırmak gereklidir.
 
 
-# How To Run the Windows10SysPrepDebloater.ps1 file
+# Windows10SysPrepDebloater.ps1 Dosyasını Nasıl Çalıştırabilirsiniz
 
-For the WindowsSysPrepDebloater.ps1 file, there are a couple of parameters that you can run so that you can specify which functions are used. The parameters are:
+WindowsSysPrepDebloater.ps1 dosyası için, hangi işlevleri kullanıldığını belirtmek için burada birkaç parametre var. Bu parametreler:
 `-SysPrep, -Debloat`. 
 
-To run this with parameters, do the following:
+Parametreleri çalıştırmak için, sonrasında:
 
-1) Download the .zip file on the main page of the github and extract the .zip file to your desired location
-2) Once extracted, open PowerShell (or PowerShell ISE) as an Administrator
-3) On the prompt, change to the directory where you extracted the files:
-  e.g. - `cd c:\temp`
-4) Next, to run either script, enter in the following:
+1) Github ana sayfasından .zip dosyasını indirin ve istediğinz klasöre .zip dosyasını çıkartın.
+2) Çıkarttıktan sonra, PowerShell'i (ya da PowerShell ISE) yönetici olarak açın.
+3) Bittiğinde, dosyaları nereye çıkarttıysanız orayı seçin:
+  örneğin - `cd c:\temp`
+4) Sonra, komut dosyasını çalıştırabilmek için, yandaki kodu yazınız:
   e.g. - `.\Windows10SysPrepDebloater.ps1 -Sysprep, -Debloat -Privacy`
 
 
-# Sysprep, Interactive, and GUI Application
+# Sysprep, Interactive, ve GUI Uygulaması
 
 There are now 3 versions of my Windows10Debloater - There is an interactive version, a GUI app version, and a pure silent version.
 
